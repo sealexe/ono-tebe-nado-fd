@@ -41,6 +41,9 @@
     font-style: normal;
     font-size: 18px;
     line-height: 1.35;
+}
+
+.header__address {
     justify-self: end;
     max-width: 240px;
 }
@@ -83,7 +86,6 @@
     display: block;
     text-align: center;
     margin-top: 20px;
-    /* margin-left: 30px; */
 }
 
 .aligned-text_right {
@@ -126,7 +128,7 @@
 }
 
 .lots {
-    padding: 180px 24px 120px;
+    margin: 180px 24px 0;
 }
 
 .lots__heading {
@@ -211,6 +213,110 @@
     font-size: 20px;
     line-height: 1.2;
 }
+
+.about {
+    margin: 120px 24px 0;
+    display: grid;
+    grid-template-columns: 359px 1fr;
+}
+
+.about__logo {
+    width: 240px;
+    height: 240px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 35px 72px 320px 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__logo-image {
+    width: 148px;
+    height: 114px;
+}
+
+.about__column {
+    padding: 133px 0 0;
+}
+
+.about__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000;
+}
+
+.footer {
+    margin-top: 180px;
+    padding: 0 50px 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__address {
+    width: 265px;
+}
+
+.footer__menu {
+    
+}
+
+.footer__menu-list {
+    display: flex;
+    min-width: 164px;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer__menu-link {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #000;
+}
+
+.footer__social-list {
+    display: flex;
+    list-style-type: none;
+    gap: 48px;
+}
+
+.footer__social-link {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+.footer__social-icon {
+    height: 100%;
+}
+
+
+
+
+
+
+
+
 
 
 
