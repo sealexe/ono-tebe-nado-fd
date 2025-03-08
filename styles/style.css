@@ -39,7 +39,7 @@
 }
 
 .header__link_active {
-    border: none;  
+    border: none;
 }
 
 .address {
@@ -183,7 +183,6 @@
     padding: 48px 40px;
     background-position: center;
     background-size: cover;
-    
 }
 
 .card_type_film {
@@ -194,7 +193,7 @@
     background-image: url(../images/card-lot-02.jpg);
 }
 
-.card_type_picture{
+.card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
 }
 
